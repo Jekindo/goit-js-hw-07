@@ -1,0 +1,40 @@
+.site-nav {
+	padding: 0;
+	list-style: none;
+}
+
+.site-nav__item {
+	border: 2px solid #458937;
+	border-radius: 5px;
+}
+
+.site-nav__item:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+.site-nav__link {
+	display: inline-block;
+	padding: 5px 5px;
+
+	color: #000;
+	text-decoration: none;
+
+	transition: 250ms color linear, 250ms background-color linear;
+}
+
+.site-nav__link:hover {
+	background-color: #458937;
+	color: #fff;
+}
+
+#validation-input {
+	border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+	border-color: #4caf50;
+}
+
+#validation-input.invalid {
+	border-color: #f44336;
+}
