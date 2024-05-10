@@ -1,0 +1,42 @@
+.controls {
+  max-width: 486px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  padding: 32px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+
+  background-color: #f6f6fe;
+  border-radius: 8px;
+}
+
+.controls .input {
+  width: 150px;
+  height: 40px;
+  text-align: center;
+
+  font-size: 16px;
+
+  border: 1px solid #808080;
+  border-radius: 8px;
+}
+
+.controls .button {
+  min-width: 120px;
+}
+
+.boxes {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 32px;
+  gap: 44px;
+
+  background-color: #f6f6fe;
+  border-radius: 8px;
+}
